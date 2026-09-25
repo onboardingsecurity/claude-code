@@ -1,5 +1,5 @@
 ---
-description: commit, push 커맨드를 순서대로 실행한 뒤 GitHub PR을 생성합니다.
+description: commit, push 커맨드를 순서대로 실행한 뒤 현재 브랜치에서 base 브랜치로 GitHub PR을 생성합니다. (base=인자, 없으면 develop)
 allowed-tools: Bash(git add:*), Bash(git commit:*), Bash(git status:*), Bash(git diff:*), Bash(git branch:*), Bash(git push:*), Bash(git log:*), Bash(gh pr:*), Bash(gh repo:*)
 ---
 
